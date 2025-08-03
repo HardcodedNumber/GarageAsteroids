@@ -1,0 +1,10 @@
+{
+    "name": "HardcodedNumber.Asteroids",
+    "rootNamespace": "HardcodedNumber.Asteroids",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "autoReferenced": true
+}

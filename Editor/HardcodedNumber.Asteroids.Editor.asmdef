@@ -1,0 +1,14 @@
+{
+    "name": "HardcodedNumber.Asteroids.Editor",
+    "rootNamespace": "HardcodedNumber.Asteroids.Editor",
+    "references": [
+        "HardcodedNumber.Asteroids"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "autoReferenced": true
+}
