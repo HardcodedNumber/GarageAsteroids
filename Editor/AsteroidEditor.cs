@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEditor;
-using HardcodedNumber.Asteroids;
 
 [CustomEditor(typeof(Asteroid))]
 public sealed class AsteroidEditor : Editor
