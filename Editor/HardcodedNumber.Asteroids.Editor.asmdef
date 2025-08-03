@@ -1,6 +1,5 @@
 {
     "name": "HardcodedNumber.Asteroids.Editor",
-    "rootNamespace": "HardcodedNumber.Asteroids.Editor",
     "references": [
         "HardcodedNumber.Asteroids"
     ],
