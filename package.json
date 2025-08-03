@@ -1,0 +1,12 @@
+{
+    "name": "com.hardcodednumber.asteroids",
+    "version": "1.0.0",
+    "displayName": "Asteroids System",
+    "description": "A basic Asteroid game",
+    "unity": "6.0",
+    "author": {
+        "name": "Hardcoded Number",
+        "email": "hectorllanos@microsoft.com",
+        "url": ""
+    }
+}
