@@ -1,9 +1,10 @@
 {
     "name": "HardcodedNumber.Asteroids.Editor",
     "references": [
-        "HardcodedNumber.Asteroids"
+        "GUID:cc84f8d121336445c9e8f57973db6c8d"
     ],
     "includePlatforms": [
         "Editor"
-    ]
+    ],
+    "autoReferenced": true
 }
