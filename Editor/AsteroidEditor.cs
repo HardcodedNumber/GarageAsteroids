@@ -1,6 +1,4 @@
 using UnityEngine;
-
-#if UNITY_EDITOR
 using UnityEditor;
 
 [CustomEditor(typeof(Asteroid))]
@@ -22,4 +20,3 @@ public sealed class AsteroidEditor : Editor
         }
     }
 }
-#endif
