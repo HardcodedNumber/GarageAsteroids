@@ -1,4 +1,6 @@
 using UnityEngine;
+
+#if UNITY_EDITOR
 using UnityEditor;
 
 [CustomEditor(typeof(Asteroid))]
@@ -13,12 +15,11 @@ public sealed class AsteroidEditor : Editor
 
         // If the button is press and we have a valid target
         // Generate a new example shape
-        if (asteroid && GUILayout.Button("Generate"))
-        {
+        if (asteroid && GUILayout.Button("Generate")) {
             asteroid.Awake();
             asteroid.ClearRenderer();
             asteroid.Initialize(Vector2.zero, Vector2.zero);
         }
     }
-
 }
+#endif
