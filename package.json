@@ -1,7 +1,7 @@
 {
     "name": "com.hardcodednumber.asteroids",
     "version": "1.0.0",
-    "displayName": "Asteroids System",
+    "displayName": "Garage Asteroids",
     "description": "A basic Asteroid game",
     "unity": "6.0",
     "author": {
