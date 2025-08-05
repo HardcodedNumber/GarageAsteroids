@@ -1,7 +1,7 @@
 using UnityEngine;
 
-[RequireComponent(typeof(LineRenderer))]
-[RequireComponent(typeof(CircleCollider2D))]
+[ExecuteAlways]
+[RequireComponent(typeof(LineRenderer), typeof(CircleCollider2D))]
 public sealed class Bullet : MonoBehaviour
 {
     private Vector2 _direction;                                         // The normalized direction the bullet will travel
@@ -56,11 +56,13 @@ public sealed class Bullet : MonoBehaviour
     /// </summary>
     private void Update()
     {
-        transform.position += (Vector3)(_direction * _speed * Time.deltaTime);
+        if (_direction != Vector2.zero) {
+            transform.position += (Vector3)(_direction * _speed * Time.deltaTime);
 
-        // Keep the line pointing in the direction of travel
-        float angle = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg - 90f;
-        transform.rotation = Quaternion.Euler(0, 0, angle);
+            // Keep the line pointing in the direction of travel
+            float angle = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg - 90f;
+            transform.rotation = Quaternion.Euler(0, 0, angle);
+        }
     }
 
     /// <summary>
