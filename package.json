@@ -1,8 +1,8 @@
 {
     "name": "com.hardcodednumber.asteroids",
     "version": "1.0.0",
-    "displayName": "Garage Asteroids",
-    "description": "A basic Asteroid game",
+    "displayName": "Asteroids",
+    "description": "A basic Asteroid game for the Garage",
     "unity": "6.0",
     "author": {
         "name": "Hardcoded Number",
